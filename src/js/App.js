@@ -125,7 +125,7 @@ class App extends React.Component {
           justifyContent: "center"
         }}
       >
-        <h1 style={{}}>Debate Opinions -- Who won the night?</h1>
+        <h1 style={{}}>Presidential Election 2020:  Pick your Candidate</h1>
         <div
           class="col-lg-12 text-center"
           style={{ width: "100%", textAlign: "center" }}
@@ -144,15 +144,15 @@ class App extends React.Component {
               }}
             >
               <Content
-                title="Debate 1"
-                date="Tuesday, June 26th"
+                title="Republicans"
+                date="Right Wing"
                 candidates={this.state.candidates}
                 hasVoted={this.state.hasVoted}
                 castVote={this.castVote}
               />
               <Content
-                title="Debate 2"
-                date="Wednesday, June 27th"
+                title="Democracts"
+                date="Left Wing"
                 candidates={this.state.candidates2}
                 hasVoted={this.state.hasVoted}
                 castVote={this.castVote}
